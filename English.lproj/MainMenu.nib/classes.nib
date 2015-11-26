@@ -1,32 +1,68 @@
-{
-    IBClasses = (
-        {
-            ACTIONS = {
-                clearSearchField = id; 
-                deselectAll = id; 
-                editInAddressBook = id; 
-                selectInAddressBook = id; 
-            }; 
-            CLASS = ABPeoplePickerView; 
-            LANGUAGE = ObjC; 
-            SUPERCLASS = NSView; 
-        }, 
-        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
-        {
-            ACTIONS = {
-                editInAB = id; 
-                getGroups = id; 
-                getRecords = id; 
-                selectInAB = id; 
-                setGroupSelection = id; 
-                setMultiRecordSelection = id; 
-                viewProperty = id; 
-            }; 
-            CLASS = MyPeoplePickerController; 
-            LANGUAGE = ObjC; 
-            OUTLETS = {ppView = ABPeoplePickerView; }; 
-            SUPERCLASS = NSObject; 
-        }
-    ); 
-    IBVersion = 1; 
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IBClasses</key>
+	<array>
+		<dict>
+			<key>ACTIONS</key>
+			<dict>
+				<key>editInAB</key>
+				<string>id</string>
+				<key>getGroups</key>
+				<string>id</string>
+				<key>getRecords</key>
+				<string>id</string>
+				<key>selectInAB</key>
+				<string>id</string>
+				<key>setGroupSelection</key>
+				<string>NSButton</string>
+				<key>setMultiRecordSelection</key>
+				<string>NSButton</string>
+				<key>viewProperty</key>
+				<string>NSButton</string>
+			</dict>
+			<key>CLASS</key>
+			<string>MyPeoplePickerController</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>OUTLETS</key>
+			<dict>
+				<key>ppView</key>
+				<string>ABPeoplePickerView</string>
+			</dict>
+			<key>SUPERCLASS</key>
+			<string>NSObject</string>
+		</dict>
+		<dict>
+			<key>CLASS</key>
+			<string>FirstResponder</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>SUPERCLASS</key>
+			<string>NSObject</string>
+		</dict>
+		<dict>
+			<key>ACTIONS</key>
+			<dict>
+				<key>clearSearchField</key>
+				<string>id</string>
+				<key>deselectAll</key>
+				<string>id</string>
+				<key>editInAddressBook</key>
+				<string>id</string>
+				<key>selectInAddressBook</key>
+				<string>id</string>
+			</dict>
+			<key>CLASS</key>
+			<string>ABPeoplePickerView</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>SUPERCLASS</key>
+			<string>NSView</string>
+		</dict>
+	</array>
+	<key>IBVersion</key>
+	<string>1</string>
+</dict>
+</plist>
